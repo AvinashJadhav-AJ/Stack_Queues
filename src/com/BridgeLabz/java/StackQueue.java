@@ -11,6 +11,14 @@ public class StackQueue {
 		list.deleteFirst();
 	}
 
+	public void enqueue(Object data) {
+		list.addLast(data);
+	}
+
+	public void dequeue() {
+		list.deleteFirst();
+	}
+
 	public void show() {
 		list.display();
 	}
